@@ -1,0 +1,29 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* overflow-y: scroll; */
+}
+
+.details-background {
+    /* position: absolute;
+
+    top: 58px;
+    left: 346px; */
+    width: 71.94vw;
+    height: 94.33vh;
+    min-height: 896px;
+
+    border-radius: 30px;
+
+    padding: 0 127px;
+    padding-top: 30px;
+
+    background: #1D1E1D;
+
+    box-sizing: border-box;
+}

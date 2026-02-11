@@ -1,0 +1,176 @@
+.sidenav {
+    font-family: "Mukta";
+    font-size: large;
+    list-style-type: none;
+    margin: 0;
+
+    margin-top: 1px;
+    padding: 0 0.521vw;
+
+    width: 15vw;
+    background-color:#12180F;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-radius: 0 50px 0 0;
+    
+    border-right: solid 1px #F8FFF6;
+    border-top: solid 1px #F8FFF6;
+    box-shadow: -4px 4px rgba(255, 255, 255, 25%);
+    z-index: 100;
+}
+
+.sidenav li {
+    padding-top: 0.417vw;
+}
+
+.heading-instigram {
+    width: 13.073vw;
+    height: 3.229vw;
+    font-family: "PoorStory"; 
+    color: white;
+    margin:38px -30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 2.604vw;
+}
+
+ul {
+    margin-top: 2.604vw;
+}
+
+li {
+    height: 2.604vw;
+}
+
+.nav-list-item {
+    font-family: Mukta;
+    text-decoration: none;
+    color: #F8FFF6;
+    display: flex;
+    align-items: center;
+    margin-left: 1.25vw;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36.56px;
+    justify-items: center;
+}
+
+.navbar-icon-calendar {
+    width: 1.25vw;
+    height: 1.25vw; 
+    margin-right: 0.417vw;
+    
+    background-image: url("../../assets/calendar.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navbar-icon-profile {
+    width: 1.25vw;
+    height: 1.25vw; 
+    margin-right: 0.417vw;
+    
+    background-image: url("../../assets/user.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navbar-icon-logout {
+    width: 1.25vw;
+    height: 1.25vw; 
+    margin-right: 0.417vw;
+    
+    background-image: url("../../assets/arrow-right-from-bracket-solid.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile-open {
+    background: #74876A;
+    border-radius: 10px;
+}
+
+.calendar-open {
+    background: #74876A;
+    border-radius: 10px;
+}
+
+.nav-newpost-button.create-open {
+    background: #106EE8;
+    color: white;
+}
+
+.navbar-icon-chat {
+    width: 1.25vw;
+    height: 1.25vw; 
+    margin-right: 0.417vw;
+    
+    background-image: url("../../assets/message-circle.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navbar-icon-feed {
+    width: 1.25vw;
+    height: 1.25vw; 
+    margin-right: 0.417vw;
+    
+    background-image: url("../../assets/house-solid.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-newpost-button {
+    font-family: PoorStory;
+    text-decoration: none;
+    color: #003887;
+    display: flex;
+    align-items: center; 
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 1.51vw;
+    line-height: 1.904vw;
+    justify-items: center;
+    background-color: #F8FFF6;
+    padding-top: 0.729vw;
+    padding-bottom: 0.833vw;
+    margin: 0.521vw;
+    border-radius: 10px;
+
+}
+
+.addpost-icon {
+    width: 2.344vw;
+    height: 2.344vw; 
+    margin-right: 0.417vw;
+    
+    background-image: url("../../assets/plus-square.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.addpost-icon-open {
+    width: 2.344vw;
+    height: 2.344vw; 
+    margin-right: 0.417vw;
+    
+    background-image: url("../../assets/plus-square-open.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logout-button:hover {
+    cursor: pointer;
+}

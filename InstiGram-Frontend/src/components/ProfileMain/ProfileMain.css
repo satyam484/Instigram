@@ -1,0 +1,51 @@
+
+.container{
+    display: flex;
+    background: #1D1E1D;
+    width: 53.958vw;
+    height: 15.625vw;
+    margin-top: 3.073vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+.big-container{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+#profile-main-card{
+    padding: 0;
+}
+
+.profile-close-button-div {
+    position: relative;
+
+    left: 41.667vw;
+    bottom: 15.625vw;
+
+    height: 2.5vw;
+    width: 2.5vw;
+
+    background-image: url('../../assets/xmark-solid.svg');
+    background-repeat: no-repeat;
+    background-size: 62.5%;
+    background-position: center;
+
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.profile-close-button-div:hover {
+    background-color: rgb(76, 75, 75);
+    cursor: pointer;
+}
+
+.profile-line {
+    position: relative;
+    left: -0px;
+    width: 100%;
+    color: white;
+    margin-bottom: 0.521vw;
+}

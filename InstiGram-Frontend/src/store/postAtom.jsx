@@ -1,0 +1,46 @@
+import {atom} from 'recoil'
+
+export const postAtom = atom({
+    key: 'postAtom',
+    default: [
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+        {postImage: 'https://placehold.co/200'},
+    ],
+})
+
+// const data = {
+//     postImage: image,
+//     caption: caption,
+//     likes: number,
+//     comments: number,
+// }

@@ -1,0 +1,47 @@
+.image-input:valid + label {
+    display: block;
+}
+
+#image {
+    display: none;
+}
+
+#profile-img {
+    height: 140px;
+    width: 140px;
+
+    margin-bottom: 40px;
+
+    position: relative;
+    left: 0;
+    top: 0;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    background-color: var(--input-background-color);
+    background-image: url('../../assets/user-regular.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+#profile-img.dark {
+    border: 1px solid white;
+
+    background-color: var(--image-input-background-color);
+    background-image: url('../../assets//user-regular.svg');
+}
+
+#profile-img:hover {
+    cursor: pointer;
+}
+
+.selected-img {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}

@@ -1,0 +1,90 @@
+:root {
+    --background-color: #000F00;
+    --background-color-dark: #000F00;
+
+    --border-color: black;
+    --border-color-dark: white;
+
+    --underline-color: rgba(0,0,0,0.6);
+    --underline-color-dark: rgba(255,255,255,0.6);
+
+    --button-color: #1F5EFF;
+    --button-dark-color: #1F5EFF;
+
+    --link-color: #0279D3;
+
+    --font-family: "PoorStory";
+
+    --placeholder-animation: scale(0.9) translateX(-0.75rem) translateY(-2rem);
+    --textarea-placeholder-animation: scale(0.9) translateX(-0.5rem) translateY(-2.5rem);
+
+    --input-color: black;
+    --input-color-dark: black;
+    --input-background-color: white;
+    --input-background-color-dark: transparent;
+
+    --image-input-background-color: #D9D9D9;
+
+    --accent-color: #0279D3;
+
+    --text-color: black;
+    --text-color-dark: white;
+
+    --textarea-height: 10rem;
+    --loader-color: #0279D3;
+    --loader-color-dark: cyan;
+
+    --card-background-color: #F8FFF6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--background-color-dark);
+    font-family: var(--font-family);
+
+    overflow: hidden;
+}
+
+body.darkMode {
+    background-color: var(--background-color-dark);
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+@font-face {
+    font-family: "PoorStory";   
+    src: local("PoorStory-Regular"),
+    url("./assets/fonts/Poor_Story/PoorStory-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Mukta";   
+    src: local("Mukta-Regular"),
+    url("./assets/fonts/Mukta/Mukta-Regular.ttf") format("truetype");
+}  
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter-Regular"),
+    url('./assets/fonts/Inter/Inter-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Bold";
+    src: local("Inter-Bold"),
+    url('./assets/fonts/Inter/Inter-Bold.ttf') format("truetype");
+}
